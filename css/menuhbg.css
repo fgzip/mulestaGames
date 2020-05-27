@@ -1,0 +1,93 @@
+.escondido {
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+    .escondido {
+        display: block;
+    }
+
+    .hamburguer {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        padding: 10px;
+        width: 40px;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+        background-color: whitesmoke;
+        border: none;
+    }
+
+    .hamburguer:active {
+        border: none;
+    }
+
+    .lista-escondida {
+        display: none;
+    }
+
+    .lista-secreta ul {
+        width: 100%;
+    }
+
+    .lista-secreta li {
+        padding: 10px;
+        width: 80%;
+        text-align: center;
+        border-bottom: 2px solid #e8e8e8;
+        margin: 0 auto;
+    }
+
+    .lista-secreta li a {
+        color: #949494;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-family: 'Quattrocento', serif;
+        text-transform: lowercase;
+        line-height: 1.5;
+    }
+
+    .lista-secreta li a:hover {
+        text-shadow: 0 0 5px #a8a8a8;
+    }
+}
+
+
+.fadeInLeftBig {
+    animation-name: fadeInLeftBig;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInLeftBig {
+    0% {
+        opacity: 0;
+        transform: translate3d(-500px, 0, 0) scale(0.7);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInRightBig {
+    animation-name: fadeInRightBig;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInRightBig {
+    0% {
+        opacity: 0;
+        transform: translate3d(500px, 0, 0) scale(0.7);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

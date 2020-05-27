@@ -1,0 +1,28 @@
+.main-faixa-um .container,
+.main-faixa-dois .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.faixa-paragrafos p {
+  line-height: 1.7;
+}
+
+.sobre-nos {
+  text-align: center;
+  font-size: 3em;
+  padding: 40px;
+}
+
+.main-faixa-um-paragrafos,
+.main-faixa-dois-paragrafos {
+  padding: 40px;
+}
+
+.main-faixa-um-paragrafos h1,
+.main-faixa-dois-paragrafos h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: right;
+}

@@ -1,0 +1,40 @@
+.main-faixa-um {
+    background: rgb(208, 208, 208);
+    background: linear-gradient(0deg, rgba(208, 208, 208, 1) 0%, rgb(232, 232, 232) 19%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-faixa-um-figure {
+    width: 80%;
+}
+
+.main-faixa-um-figure img {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .main-faixa-um .container {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 1.1em;
+    }
+
+    .main-faixa-um-figure {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-faixa-um .container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 90%;
+    }
+
+    .main-faixa-um-figure {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
